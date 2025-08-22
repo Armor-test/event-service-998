@@ -1,0 +1,40 @@
+# CODEOWNERS file for event-service-998
+# Global owners - will be requested for all PRs
+* @Armor-test/grp-storage @Armor-test/squad-tooling @Armor-test/dept-billing
+
+# Directory ownership
+/views/ @Armor-test/squad-search @Armor-test/team-research @Armor-test/squad-tooling
+/controllers/ @Armor-test/squad-qa @Armor-test/squad-ml @Armor-test/squad-reporting
+/services/ @Armor-test/squad-reporting @Armor-test/squad-frontend
+/examples/ @Armor-test/dept-test @Armor-test/squad-reporting
+/deploy/ @Armor-test/squad-tooling @Armor-test/dept-ui
+/spec/ @Armor-test/dept-reporting @Armor-test/squad-cache
+/internal/ @Armor-test/squad-research @Armor-test/grp-ui @Armor-test/team-core
+/assets/ @Armor-test/dept-billing @Armor-test/squad-research @Armor-test/dept-automation
+/dist/ @Armor-test/unit-devops @Armor-test/grp-search @Armor-test/squad-search
+/pkg/ @Armor-test/squad-research @Armor-test/squad-performance
+/extensions/ @Armor-test/squad-product @Armor-test/dept-billing
+/pages/ @Armor-test/team-security @Armor-test/grp-storage @Armor-test/team-research
+
+# File type ownership
+*.json @Armor-test/dept-security @Armor-test/dept-notifications
+*.yml @Armor-test/grp-integration @Armor-test/squad-qa
+*.scss @Armor-test/grp-integration @Armor-test/dept-automation
+*.tsx @Armor-test/dept-billing @Armor-test/dept-security
+*.lock @Armor-test/grp-integration @Armor-test/dept-ui
+*.toml @Armor-test/dept-data @Armor-test/squad-database @Armor-test/dept-test
+*.cs @Armor-test/squad-frontend @Armor-test/squad-qa
+*.tf @Armor-test/team-core @Armor-test/grp-ui @Armor-test/dept-test
+*.css @Armor-test/dept-ui @Armor-test/squad-apps
+*.md @Armor-test/dept-release @Armor-test/dept-reporting
+*.html @Armor-test/dept-notifications @Armor-test/team-frontend
+*.scala @Armor-test/dept-test @Armor-test/team-logging
+*.sql @Armor-test/unit-design @Armor-test/dept-logging
+*.config @Armor-test/team-reporting @Armor-test/team-frontend
+*.xml @Armor-test/dept-ui @Armor-test/dept-reliability
+
+# Security and special files
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
+package.json @Armor-test/dependency-team @Armor-test/security
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
+Dockerfile @Armor-test/devops @Armor-test/infra
